@@ -1,15 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Navbar from './Navbar';
+import Header from './Header';
+import Services from './Services';
+import Seeker from './Seeker';
+import Speaker from './Speaker';
+import Events from './Events';
+import Team from './Team';
+import Contact from './Contact';
+import Footer from './Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello</h1>
-      </header>
+
+class App extends Component {
+  render(){
+    return (
+      <div className="App">
+        <Navbar/>
+        <Header/>
+        <Services/>
+	      <Seeker/>
+	      <Speaker/>
+        <Events/>
+	      <Team/>
+	      <Contact/>
+	      <Footer/>
     </div>
-  );
+   );
+  }
 }
-
 export default App;
