@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Dialog from './Dialog';
+import Dialog from '../components/Dialog';
 
 class Events extends Component {
 state={isOpen:false}

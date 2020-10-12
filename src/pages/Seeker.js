@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Dialog from './Dialog';
+import Dialog from '../components/Dialog';
 
 class Seeker extends Component {
 state={isOpen:false}

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Dialog from './Dialog';
+import Dialog from '../components/Dialog';
 
 class Contact extends Component {
 state={isOpen:false}
@@ -33,7 +33,7 @@ render(){
 					<br></br>
 					<button className="btn-solid-reg popup-with-move-anim" onClick={(e) => this.setState({isOpen:true})} >FOR FUTURE EVENTS, SIGN UP</button>
 	  				<Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({isOpen:false})}>
-	  					<iframe title="contactform" src="https://formfaca.de/sm/IkBKWBJTZ" width="640" height="600" frameborder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+	  					<iframe title="contactform" src="https://formfaca.de/sm/amL5VB_O8" width="640" height="600" frameborder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
 	  				</Dialog>
 	  			</div> 
 
